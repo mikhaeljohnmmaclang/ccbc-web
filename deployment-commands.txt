@@ -1,0 +1,38 @@
+#Documentation - 1/19/2023
+SSL Ready - Hostinger 
+Mikhael Maclang's Gmail Account connected
+
+Domain Name: cbccalumpit.org
+Subdomain: accounting.cbccalumpit.org
+
+Superadmin Account
+Email: admin@mail.com
+Password: ***mik's default password for webapps**
+
+Hostinger hpanel - IPv4 (194.31.53.114)
+https://194.31.53.114:8090/base/
+username: admin
+password: M******02@hostinger //mikdefault pass covered by *
+
+Database
+DB name: cbcc_db_cbcc
+DB username: cbcc_root
+DB password: M******02@hostinger //mikdefault pass covered by *
+
+#SSH Access - hostinger files
+CMD Commands: 
+  ssh cbcca9766@194.31.53.114
+  cd accounting.cbccalumpit.org/
+SSH user: cbcca9766
+SSH password: M******02@hostinger //mikdefault pass covered by *
+
+GITLAB
+https://gitlab.com/mik_nb/cbcc-web
+user: mik_nb
+password: m*******7 //mikdefault pass covered by *
+
+#htaccess
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
